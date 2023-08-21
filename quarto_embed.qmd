@@ -1,0 +1,21 @@
+---
+title: "How to use Quarto embed"
+author: "Luis R. Gonzalez"
+date: "August 21, 2023"
+format: 
+  html: default
+---
+
+## Using Quarto embed
+
+Testing with `.do.markdown()`
+
+{{< embed testing.ipynb#tbl-test-to-markdown-option >}}
+
+Testing using the pandas Styler
+
+{{< embed testing.ipynb#tbl-test-to-markdown-pandas-styler >}}
+
+Testing with `table data-quarto-disable-processing` using the pandas Styler
+
+{{< embed testing.ipynb#tbl-test-to-markdown-option-quarto-disable >}}
