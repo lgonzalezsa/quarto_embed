@@ -8,14 +8,27 @@ format:
 
 ## Using Quarto embed
 
-Testing with `.do.markdown()`
+### Testing with `.to_markdown()` 
 
 {{< embed testing.ipynb#tbl-test-to-markdown-option >}}
 
-Testing using the pandas Styler
 
-{{< embed testing.ipynb#tbl-test-to-markdown-pandas-styler >}}
+### Testing using the pandas Styler
 
-Testing with `table data-quarto-disable-processing` using the pandas Styler
+{{< embed testing.ipynb#tbl-test_to_markdown_pandas_styler >}}
+
+
+### Testing with `table data-quarto-disable-processing` using the pandas Styler
 
 {{< embed testing.ipynb#tbl-test-to-markdown-option-quarto-disable >}}
+
+
+### Using examples
+
+{{< embed demo.ipynb#tbl-test-pandas1 >}}
+
+
+### tbl-test-pandas2
+
+{{< embed demo.ipynb#tbl-test-pandas2 >}}
+
